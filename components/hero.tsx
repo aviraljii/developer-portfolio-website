@@ -112,8 +112,8 @@ export function Hero() {
                 View Projects <ArrowRight size={20} />
               </motion.a>
               <motion.a
-                href="/Aviralkaushikcv.pdf"
-                download="Aviral_Kaushik_Resume.pdf"
+                href="/Aviral Kaushik CV.pdf"
+                download="Aviral Kaushik CV.pdf"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="w-full sm:w-auto px-8 py-3 border-2 border-sky-500 text-sky-500 font-semibold rounded-lg hover:bg-sky-50 transition-colors flex items-center justify-center gap-2"
