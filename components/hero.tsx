@@ -60,7 +60,7 @@ export function Hero() {
                 className="inline-block px-4 py-2 bg-sky-100 rounded-full border border-sky-300"
               >
                 <span className="text-sm font-semibold text-sky-600">
-                  Full Stack Developer
+                  AI-Powered Full Stack Developer
                 </span>
               </motion.div>
 
@@ -79,7 +79,7 @@ export function Hero() {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="text-lg sm:text-xl text-slate-600 max-w-xl mx-auto lg:mx-0"
               >
-                Building Scalable, High-Performance Web Applications with Modern Technologies.
+                Building production-ready web applications and AI-powered solutions.
               </motion.p>
             </div>
 
@@ -90,10 +90,9 @@ export function Hero() {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="text-sm sm:text-base text-slate-600 max-w-lg mx-auto lg:mx-0 leading-relaxed"
             >
-              Full Stack Developer with +2 years of professional experience developing scalable web
-              applications using React.js, Next.js, Node.js, FastAPI, MongoDB and MySQL. Passionate
-              about clean architecture, modern UI, performance optimization and solving real-world
-              business problems.
+              AI-Powered Full Stack Developer with 2 years of experience building production-ready web
+              applications, secure REST APIs, and AI-powered solutions with React.js, Next.js, Node.js,
+              Express.js, Python, FastAPI, MongoDB, TypeScript, Generative AI, and Machine Learning.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -112,8 +111,8 @@ export function Hero() {
                 View Projects <ArrowRight size={20} />
               </motion.a>
               <motion.a
-                href="/Aviral Kaushik CV.pdf"
-                download="Aviral Kaushik CV.pdf"
+                href="/Aviral%20Kaushik.CV.pdf"
+                download="Aviral Kaushik.CV.pdf"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="w-full sm:w-auto px-8 py-3 border-2 border-sky-500 text-sky-500 font-semibold rounded-lg hover:bg-sky-50 transition-colors flex items-center justify-center gap-2"

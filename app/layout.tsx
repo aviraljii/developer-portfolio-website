@@ -10,8 +10,8 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Aviral Kaushik - Full Stack Developer',
-  description: 'Full Stack Developer with 1.7+ years of professional experience building scalable web applications using React.js, Next.js, Node.js, FastAPI, MongoDB and MySQL.',
+  title: 'Aviral Kaushik | AI-Powered Full Stack Developer',
+  description: 'AI-Powered Full Stack Developer building scalable applications with React.js, Next.js, Node.js, Python, FastAPI, Generative AI, and Machine Learning.',
   generator: 'v0.app',
   icons: {
     icon: [

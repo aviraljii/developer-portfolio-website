@@ -9,7 +9,6 @@ import {
   SiReact,
   SiNextdotjs,
   SiTailwindcss,
-  SiBootstrap,
   SiNodedotjs,
   SiExpress,
   SiFastapi,
@@ -20,7 +19,7 @@ import {
   SiPostman,
   SiGithub,
 } from 'react-icons/si'
-import { FaCss3, FaCode } from 'react-icons/fa'
+import { FaCss3, FaCode, FaBrain } from 'react-icons/fa'
 const SiCss3 = FaCss3
 const SiVisualstudiocode = FaCode
 
@@ -40,7 +39,6 @@ const skillCategories: SkillCategory[] = [
       { name: 'React.js', icon: SiReact, color: 'text-cyan-500' },
       { name: 'Next.js', icon: SiNextdotjs, color: 'text-slate-900' },
       { name: 'Tailwind CSS', icon: SiTailwindcss, color: 'text-cyan-400' },
-      { name: 'Bootstrap', icon: SiBootstrap, color: 'text-purple-600' },
     ],
   },
   {
@@ -60,12 +58,41 @@ const skillCategories: SkillCategory[] = [
     ],
   },
   {
-    category: 'Tools',
+    category: 'API Development',
+    skills: [
+      { name: 'REST APIs', icon: FaCode, color: 'text-sky-500' },
+      { name: 'JWT Authentication', icon: FaCode, color: 'text-sky-500' },
+      { name: 'API Integration', icon: FaCode, color: 'text-sky-500' },
+      { name: 'Postman', icon: SiPostman, color: 'text-orange-500' },
+    ],
+  },
+  {
+    category: 'AI & Machine Learning',
+    skills: [
+      { name: 'Generative AI Integration', icon: FaBrain, color: 'text-violet-600' },
+      { name: 'Python-based AI Services', icon: SiPython, color: 'text-blue-500' },
+      { name: 'Machine Learning', icon: FaBrain, color: 'text-violet-600' },
+      { name: 'AI-powered Applications', icon: FaBrain, color: 'text-violet-600' },
+    ],
+  },
+  {
+    category: 'Developer Tools',
     skills: [
       { name: 'Git', icon: SiGit, color: 'text-orange-600' },
       { name: 'GitHub', icon: SiGithub, color: 'text-slate-900' },
       { name: 'Postman', icon: SiPostman, color: 'text-orange-500' },
       { name: 'VS Code', icon: SiVisualstudiocode, color: 'text-blue-500' },
+      { name: 'Vercel', icon: FaCode, color: 'text-slate-900' },
+      { name: 'Netlify', icon: FaCode, color: 'text-teal-500' },
+    ],
+  },
+  {
+    category: 'Other',
+    skills: [
+      { name: 'Responsive Design', icon: FaCode, color: 'text-sky-500' },
+      { name: 'Data Structures & Algorithms', icon: FaCode, color: 'text-sky-500' },
+      { name: 'OOP', icon: FaCode, color: 'text-sky-500' },
+      { name: 'MVC Architecture', icon: FaCode, color: 'text-sky-500' },
     ],
   },
 ]
@@ -75,7 +102,7 @@ const softSkills = [
   'Communication',
   'Team Collaboration',
   'Agile Development',
-  'Rest API Design',
+  'REST API Design',
   'Performance Optimization',
 ]
 

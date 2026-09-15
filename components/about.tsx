@@ -8,15 +8,15 @@ const highlights = [
   'Node.js',
   'Express.js',
   'FastAPI',
+  'Python',
   'JavaScript',
   'TypeScript',
   'MongoDB',
-  'MySQL',
   'REST APIs',
-  'Responsive UI Development',
-  'Performance Optimization',
-  'Agile Development',
-  'Git Collaboration',
+  'Generative AI',
+  'Machine Learning',
+  'Clean Code',
+  'Scalable Applications',
 ]
 
 export function About() {
@@ -34,7 +34,7 @@ export function About() {
             About Me
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Professional Full Stack Developer passionate about building scalable solutions
+            AI-Powered Full Stack Developer focused on scalable, maintainable solutions
           </p>
         </motion.div>
 
@@ -48,9 +48,10 @@ export function About() {
             className="space-y-6"
           >
             <p className="text-lg text-slate-600 leading-relaxed">
-              I&apos;m an enthusiastic Full Stack Developer with professional industry experience in building
-              scalable web applications. My journey in tech has been driven by a passion for clean architecture,
-              modern user interfaces, and solving real-world business problems.
+              I&apos;m an AI-Powered Full Stack Developer with experience building scalable applications and
+              responsive interfaces using React.js, Next.js, Node.js, Express.js, Python, FastAPI, MongoDB,
+              and TypeScript. I build secure REST APIs and integrate Generative AI and Machine Learning
+              capabilities while keeping code clean, maintainable, and focused on real user needs.
             </p>
 
             <div className="bg-white/85 backdrop-blur-sm shadow-sm border border-sky-200 rounded-lg p-6">

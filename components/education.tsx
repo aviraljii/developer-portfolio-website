@@ -24,8 +24,9 @@ export function Education() {
 
   const certifications = [
     {
-      name: 'MERN Stack Certification',
+      name: 'MERN Stack Development',
       issuer: 'Regex Software Services',
+      period: 'April 2023 – November 2023',
       icon: Award,
     },
   ]
@@ -127,6 +128,7 @@ export function Education() {
                   <div className="flex-1">
                     <h4 className="text-lg font-bold text-slate-900 dark:text-white">{cert.name}</h4>
                     <p className="text-amber-600 dark:text-amber-400 font-semibold text-sm">{cert.issuer}</p>
+                    <p className="text-sm text-slate-600 dark:text-slate-400 mt-1">{cert.period}</p>
                   </div>
                 </div>
               </motion.div>

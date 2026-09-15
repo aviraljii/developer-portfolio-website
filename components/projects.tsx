@@ -15,40 +15,34 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'CypherAI – AI Content Intelligence Platform',
+    title: 'Cypher AI',
     description:
-      'Developed AI-powered content analysis features and optimized application performance for enterprise-level deployment.',
-    technologies: ['Next.js', 'React.js', 'Node.js', 'AI/ML', 'Cloud'],
-    liveUrl: 'https://www.cypherai.ai/use-cases',
+      'AI-Powered Market Research Platform. Developed scalable frontend and backend features, integrating Generative AI and Python-based services for intelligent research workflows and market insights.',
+    technologies: ['Next.js', 'React.js', 'TypeScript', 'Python', 'Node.js', 'FastAPI', 'Generative AI'],
+    liveUrl: 'https://www.cypherai.ai/',
     features: [
-      'AI-powered content analysis',
-      'Real-time data processing',
-      'Performance-optimized architecture',
-      'Enterprise-grade security',
+      'Secure REST APIs with Node.js and FastAPI',
+      'Responsive data visualization and user experience',
     ],
   },
   {
-    title: 'Eco Credit',
-    description: 'Cross-platform mobile application with seamless API integrations and enhanced usability features.',
-    technologies: ['React Native', 'JavaScript', 'REST APIs', 'Mobile Development'],
+    title: 'PlasticCredit',
+    description: 'Developed responsive web application features for a sustainability-focused platform supporting plastic waste awareness and credit initiatives.',
+    technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'REST APIs'],
     liveUrl: 'https://play.google.com/store/apps/details?id=com.ecocredit',
     features: [
-      'Cross-platform compatibility',
-      'Seamless API integration',
-      'Enhanced UI/UX',
-      'Offline functionality',
+      'REST APIs for frontend-backend communication',
+      'Maintainable workflows and reliable application architecture',
     ],
   },
   {
     title: 'SK Board',
-    description: 'Developed scalable web and mobile platform with REST API integration and improved performance metrics.',
-    technologies: ['Next.js', 'React.js', 'Node.js', 'MongoDB'],
+    description: 'Designed a scalable web and mobile platform with reusable components and maintainable architecture across multiple devices.',
+    technologies: ['React.js', 'React Native', 'Node.js', 'MongoDB'],
     liveUrl: 'https://skboard.satellitekeyit.com/',
     features: [
-      'Scalable architecture',
-      'Real-time updates',
-      'Performance optimization',
-      'Responsive design',
+      'MongoDB-backed REST APIs for efficient data management',
+      'Optimized performance and seamless frontend-backend communication',
     ],
   },
 

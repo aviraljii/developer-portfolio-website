@@ -12,29 +12,25 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    company: 'App Vibe',
+    company: 'AppVibe',
     position: 'Full Stack Developer',
-    duration: 'July 2025 – Present',
+    duration: 'September 2025 – Present',
     responsibilities: [
-      'Developed scalable web applications using React.js, Next.js and Node.js',
-      'Built and integrated RESTful APIs',
-      'Worked with MongoDB and MySQL databases',
-      'Optimized application performance for better user experience',
-      'Resolved bugs and improved UI/UX design',
-      'Collaborated with team using Git and GitHub',
+      'Developed scalable web applications using React.js, Next.js, Node.js, Express.js, MongoDB, TypeScript, and Python.',
+      'Built secure REST APIs and integrated third-party services to extend application functionality.',
+      'Implemented AI-powered features using Python and Generative AI libraries.',
+      'Collaborated with cross-functional teams to deliver production-ready applications on schedule.',
     ],
   },
   {
     company: 'A3 IT Solutions',
-    position: 'Associate',
-    duration: 'November 2024 – June 2025',
+    position: 'Junior Frontend Developer',
+    duration: 'September 2024 – August 2025',
     responsibilities: [
-      'Worked on React.js applications',
-      'Assisted backend development using Node.js',
-      'Integrated REST APIs with frontend',
-      'Managed database operations',
-      'Bug fixing and code optimization',
-      'Agile collaboration and sprint planning',
+      'Developed responsive web applications using React.js, Next.js, JavaScript, and Tailwind CSS.',
+      'Built reusable UI components and integrated REST APIs to support scalable feature delivery.',
+      'Optimized application performance and ensured cross-browser compatibility.',
+      'Collaborated with designers and backend developers to deliver scalable, user-facing features.',
     ],
   },
 ]

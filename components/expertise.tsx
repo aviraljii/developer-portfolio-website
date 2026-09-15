@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Code2, Zap, Database, GitBranch, Bug, Users, type LucideIcon } from 'lucide-react'
+import { BrainCircuit, Code2, Zap, Database, GitBranch, Bug, Users, type LucideIcon } from 'lucide-react'
 
 interface ExpertiseItem {
   icon: LucideIcon
@@ -11,6 +11,12 @@ interface ExpertiseItem {
 }
 
 const expertise: ExpertiseItem[] = [
+  {
+    icon: BrainCircuit,
+    title: 'AI-Powered Development',
+    description: 'Integrating Generative AI, Python-based services, and Machine Learning into practical web applications.',
+    color: 'from-violet-500 to-purple-600',
+  },
   {
     icon: Code2,
     title: 'Modern Web Development',
